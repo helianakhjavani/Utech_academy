@@ -35,6 +35,9 @@ print(dic)
 removenum = int(input("which do you want to get rid of?"))
 del dic[removenum]
 
+sortedByValueDict = sorted(dic.items(), key = lambda t: t[1])
+print(sortedByValueDict)
+
     
 
 #074
