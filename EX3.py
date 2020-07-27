@@ -15,5 +15,5 @@ montharray = [31,28,31,30,31,30,31,31,30,30,30,31]
 if result == True :
     montharray[1] = 29
 
-caldays = sum(montharray[: month]) + day
+caldays = sum(montharray[: month-1]) + day
 print(caldays , "passed from begining of the year")
