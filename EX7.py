@@ -1,5 +1,4 @@
 arr = []
-n=15
 def Fib(n):
 
   if arr[n] != -1:
