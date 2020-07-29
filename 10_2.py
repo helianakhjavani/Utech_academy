@@ -1,3 +1,6 @@
+  
+import numpy as np
+import matplotlib.pyplot as plt
 vec1 = np.array([-1., 4., -9.])
 mat1 = np.array([[1., 3., 5.], [7., -9., 2.], [4., 6., 8.]])
 vec2 = (np.pi/4) * vec1
